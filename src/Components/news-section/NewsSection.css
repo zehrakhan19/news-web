@@ -1,0 +1,13 @@
+.section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 84%;
+  margin: 4rem auto;
+  flex-wrap: wrap;
+}
+@media (max-width: 836px) {
+  .section-container {
+    justify-content: center;
+  }
+}

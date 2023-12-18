@@ -1,0 +1,43 @@
+.politicle-world-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 84%;
+  height: fit-content;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.header-wrapper {
+  color: #000;
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+.inner-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+.carousels-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsCards-container {
+  display: flex;
+  justify-content: space-around;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px;
+}
+@media (max-width: 1340px) {
+  .cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

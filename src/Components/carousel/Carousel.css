@@ -1,0 +1,27 @@
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsCard-container {
+  display: flex;
+  justify-content: space-around;
+}
+.big-card {
+  width: 45%;
+  display: flex;
+}
+.small-cards {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media (max-width: 991px) {
+  .big-card {
+    width: 90%;
+  }
+  .small-cards {
+    display: none;
+  }
+}

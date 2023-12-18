@@ -1,0 +1,46 @@
+.header {
+  background-color: #3f51b5 !important;
+}
+.bar {
+  display: none;
+}
+.tab-container {
+  justify-content: space-between;
+  padding: 0 8% !important;
+}
+.tab-box {
+  display: flex;
+  justify-content: space-between;
+  width: 33%;
+}
+.icon-box {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+.tabs {
+  font-size: 14px !important;
+}
+.tabs:hover {
+  color: #be0808;
+  cursor: pointer;
+  transition: ease-in 1000;
+}
+.icon {
+}
+.icon :hover {
+  color: #be0808;
+  cursor: pointer;
+  transition: ease-in 1000;
+}
+@media (max-width: 1072px) {
+  .bar {
+    display: block;
+  }
+  .tab-box {
+    display: none;
+  }
+  .icon-box {
+    width: 40%;
+  }
+}

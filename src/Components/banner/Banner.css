@@ -1,0 +1,36 @@
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3eded4a;
+  width: 84%;
+  margin: auto;
+  margin-top: 14px;
+}
+.btn-container {
+  width: 16%;
+}
+.marqee-container {
+  width: 84%;
+}
+.marquee {
+  display: flex;
+  justify-content: space-between !important;
+  /* background-color: black; */
+}
+.content {
+  display: flex;
+  padding: 0 40 !important;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 170px;
+}
+@media (max-width: 1125px) {
+  .btn-container {
+    width: 50%;
+  }
+  .marqee-container {
+    width: 50%;
+  }
+}
